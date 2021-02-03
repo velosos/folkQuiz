@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:folk_quiz/quiz_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -22,7 +23,12 @@ class HomeScreen extends StatelessWidget {
             ),
           FlatButton(
             onPressed: () {
-            print('Começar');
+            Navigator.push(
+              context, 
+              MaterialPageRoute(
+                builder: (context) => QuizScreen()
+              ),
+            );
           }, child: Text(
             'Começar', 
             style: TextStyle(
