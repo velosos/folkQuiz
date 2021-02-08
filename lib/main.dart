@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:folk_quiz/home_screen.dart';
+import 'package:folk_quiz/src/pages/home_screen.dart';
 
-void main(){
+void main() {
   runApp(Folk());
 }
 
